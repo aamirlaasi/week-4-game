@@ -1,0 +1,11 @@
+Create a random number betwee 19 and 120.
+Generate hidden values between 1 and 12 for each crystal.
+When a user clicks a crystal: 
+	add the respective number to the player's score counter. 
+	check if the player's score is higher than random number.
+	If the score is higher then "you lose" and add 1 to the number of losses. Reset the game.
+	If the score matches random number then "you win" and add 1 to the number of wins. Reset the game.
+
+
+
+
