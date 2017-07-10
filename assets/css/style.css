@@ -1,0 +1,39 @@
+/*Set the image dimensions*/
+
+body {
+	background-image: url("background.jpg");
+}
+
+/*h1 {*/
+	/*color: #ffffff;*/
+	/*text-align: center;*/
+/*}*/
+
+.size {
+	height: 100px;
+	width: 100px;
+}
+
+.numCss {
+	font-size: 40px;
+	text-align: center;
+	color: #FFFF00;
+}
+
+.winCss{
+	font-size: 20px;
+	color: #008000;
+}
+
+.lossCss {
+	font-size: 20px;
+	color: #FF0000;
+}
+
+.result {
+	font-size: 40px;
+	color: #800080;
+}
+
+
+

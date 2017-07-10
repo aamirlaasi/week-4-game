@@ -49,15 +49,6 @@ $(document).ready(function() {
 		// Set score to zero and print to html
 		score = 0;
 		$(".score").html(score);
-		// Testing
-		// ----------------------
-		console.log(randomNumber);
-		console.log(crystal1);
-		console.log(crystal2);
-		console.log(crystal3);
-		console.log(crystal4);
-		console.log(score);
-		// ----------------------
 	};
 
 	// Function to update wins and losses
@@ -100,12 +91,6 @@ $(document).ready(function() {
 		score += crystalValue;
 		// Record the score to html
 		$(".score").html(score);
-		// Testing
-		// ---------------------------
-		console.log(this);
-		console.log(crystalValue);
-		console.log(score);
-		// ---------------------------
 		// Check the score, add to win or loss, or continue
 		var gameOver = winLoss();
 		// If game is over then reset
